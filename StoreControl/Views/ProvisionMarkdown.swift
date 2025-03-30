@@ -20,7 +20,7 @@ struct ProvisionMarkdown: View {
     - A Mac or Windows computer (that can run the latest of the following:)
     - Apple Configurator 2 (for macOS only) or iMazing (for macOS and Window)
 
-    Download the Apple Partner Demo Profile here: https://github.com/Swifticul/StoreControl/raw/main/Downloads/Profiles/profile.mobileprovision
+    Download the Apple Partner Demo Profile here: https://github.com/Actionizer/StoreControl/raw/main/Downloads/Profiles/profile.mobileprovision
 
     ## Installing the Profile
 
