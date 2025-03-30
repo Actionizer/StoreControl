@@ -8,7 +8,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Set Execute Permission for ipabuild.sh
         run: chmod +x ./ipabuild.sh
       - name: Get Latest Commit Message
@@ -22,7 +22,7 @@ jobs:
           APP_NAME: StoreControl
           BUILD_NUMBER: ${{ github.run_number }}
       - name: Upload IPA Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: StoreControl.ipa
           path: ./build/StoreControl.ipa
