@@ -18,7 +18,8 @@ struct ProvisionMarkdown: View {
     ## Requirements
 
     - A Mac or Windows computer (that can run the latest of the following:)
-    - Apple Configurator 2 (for macOS only) or iMazing (for macOS and Window)
+    - Apple Configurator (for macOS only) or iMazing (for macOS and Windows)
+    - Apple Configurator and Apple File Conduit 2 are two different things. Please do not mistake it
 
     Download the Apple Partner Demo Profile here: https://github.com/Actionizer/StoreControl/raw/main/Downloads/Profiles/profile.mobileprovision
 
